@@ -15,7 +15,6 @@ class myapp(): #Create "myapp" class to tkinter windows.
         self.app.title('Free Games Checker')
         self.app.geometry('850x610')
         self.app.resizable(False, False)
-        self.app.iconbitmap('C:/Users/pro_1/Desktop/FreeGamesChecker/game_pad.ico')
 
         self.labelplataforma=tk.Label(self.app,text="Plataform: ").grid(row=0,column=0, sticky=tk.W, padx=25)
         self.plataforma=ttk.Combobox(self.app,state='readonly')
